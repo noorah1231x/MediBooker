@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation - MediBooker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-heartbeat"></i>
+                MediBooker
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="doctors.html" class="nav-link">Doctors</a>
+                <a href="booking.html" class="nav-link">Book Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Booking Confirmed!</h1>
+            <p>Your appointment has been successfully scheduled</p>
+        </div>
+    </section>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="confirmation-card fade-in">
+                    <div class="confirmation-header">
+                        <i class="fas fa-check-circle"></i>
+                        <h2>Thank You for Booking</h2>
+                        <p>Your appointment has been confirmed. We've sent a confirmation email with all the details.</p>
+                    </div>
+
+                    <div id="confirmationDetails" class="confirmation-details">
+                        <!-- JavaScript will populate this section -->
+                    </div>
+
+                    <div class="confirmation-info">
+                        <h3>
+                            <i class="fas fa-info-circle"></i>
+                            What's Next?
+                        </h3>
+                        <ul class="confirmation-steps">
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                Check your email for detailed appointment information
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                Arrive 15 minutes before your scheduled appointment
+                            </li>
+                            <li>
+                                <i class="fas fa-file-medical"></i>
+                                Bring any relevant medical records or test results
+                            </li>
+                            <li>
+                                <i class="fas fa-id-card"></i>
+                                Don't forget to bring a valid ID and insurance card
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="confirmation-actions">
+                        <h3>
+                            <i class="fas fa-calendar-alt"></i>
+                            Need to Make Changes?
+                        </h3>
+                        <p>If you need to reschedule or cancel your appointment, please contact us at least 24 hours in advance.</p>
+                        <div class="action-buttons">
+                            <a href="tel:+1234567890" class="btn btn-primary">
+                                <i class="fas fa-phone"></i>
+                                Contact Us
+                            </a>
+                            <a href="index.html" class="btn btn-accent">
+                                <i class="fas fa-home"></i>
+                                Back to Home
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About MediBooker</h3>
+                    <p>Your trusted platform for booking medical appointments online. We connect patients with qualified healthcare professionals.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="doctors.html">Find Doctors</a></li>
+                        <li><a href="booking.html">Book Appointment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                        <li><i class="fas fa-envelope"></i> info@medibooker.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Medical Center, City</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MediBooker. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
